@@ -13,6 +13,7 @@
 name: "CodeQL"
 
 on:
+  issues: [create]
   push:
     branches: [ master ]
   pull_request:
