@@ -60,3 +60,12 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+      
+      
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+        mkdir -p /tmp && cd /tmp && \
+        
+        ls -ahl
